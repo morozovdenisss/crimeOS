@@ -2,7 +2,7 @@ import React from "react";
 import background from "./background.png";
 import { Grid } from "semantic-ui-react";
 import LeftPanel from "./components/LeftPanel/LeftPanel";
-import RightPanel from "./components/RightPanel/RightPanel";
+//import RightPanel from "./components/RightPanel/RightPanel";
 
 // The login page is a combination of a left and righthand side panels. The left panel contains all the logic for
 // logging in (authenication), whereas the rightside panel is largely only for aesthetics. background.png is
@@ -28,7 +28,6 @@ const LoginPage = () => {
             <LeftPanel />
           </Grid.Column>
           <Grid.Column>
-            <RightPanel />
           </Grid.Column>
         </Grid.Row>
       </Grid>

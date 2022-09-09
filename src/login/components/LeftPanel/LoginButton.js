@@ -19,8 +19,8 @@ const LoginButton = () => {
         fontSize: "2.5vh",
         width: "14vw",
         height: "6vh",
-        marginTop: "6vh",
-        marginLeft: "4vh",
+        marginTop: "30vh",
+        marginLeft: "12vh",
       }}
     >
       Login

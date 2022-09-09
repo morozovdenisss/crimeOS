@@ -1,6 +1,5 @@
+/*
 import React from "react";
-import extracy from "./extracy_logo.png";
-import lawfoundation from "./lawfoundation.png";
 import { Grid } from "semantic-ui-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -128,3 +127,4 @@ const RightPanel = () => {
 };
 
 export default RightPanel;
+*/

@@ -18,12 +18,12 @@ function App() {
       <Switch>
         <PrivateRoute
           exact
-          path="/advocate"
+          path="/free"
           component={() => <AdvocateDBoard role={role} setRole={setRole} />}
         />
         <PrivateRoute
           exact
-          path="/a2j"
+          path="/admin"
           component={() => <A2JDBoard role={role} setRole={setRole} />}
         />
         <Route path="/" component={LoginPage} />

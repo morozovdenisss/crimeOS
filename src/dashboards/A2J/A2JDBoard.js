@@ -51,10 +51,10 @@ const A2JDBoard = (props) => {
 
   const content = (
     <Grid style={{ height: "100vh" }}>
-      <Grid.Column width={4} style={{ backgroundColor: "rgb(250, 251, 252)" }}>
+      <Grid.Column width={3} style={{ backgroundColor: "rgb(250, 251, 252)" }}>
         <Menu fluid vertical tabular color="blue">
           <div className="center item">
-            <h3>Access to Justice</h3>
+            <h3>YCombinator User</h3>
             {userEmail}
           </div>
           <Menu.Item
@@ -62,33 +62,33 @@ const A2JDBoard = (props) => {
             active={activeItem === "overview"}
             onClick={handleItemClick}
           >
-            Overview <Icon name="clone" />
+            Missing & Wanted <Icon name="clone" />
           </Menu.Item>
           <Menu.Item
-            name="new"
-            active={activeItem === "new"}
+            name="report"
+            active={activeItem === "report"}
             onClick={handleItemClick}
           >
-            New Submissions <Icon name="plus" />
+            Report Incident <Icon name="plus" />
           </Menu.Item>
           <Menu.Item
             name="visualization"
             active={activeItem === "visualization"}
             onClick={handleItemClick}
           >
-            Visualizations <Icon name="line graph" />
+            Crime Visualizations <Icon name="line graph" />
           </Menu.Item>
           <Menu.Item
-            name="advocate"
-            active={activeItem === "advocate"}
+            name="database"
+            active={activeItem === "database"}
             onClick={handleItemClick}
           >
-            Advocate List <Icon name="users" />
+            Open Database <Icon name="users" />
           </Menu.Item>
         </Menu>
       </Grid.Column>
 
-      <Grid.Column stretched width={12}>
+      <Grid.Column stretched width={13}>
         <Segment>{renderSwitch(activeItem)}</Segment>
       </Grid.Column>
     </Grid>

@@ -12,7 +12,7 @@ const DBoardTemplate = (props) => {
         <div className="header item">
           <img
             className="ui image"
-            src={process.env.PUBLIC_URL + "/extracy.png"}
+            src={"https://i.ibb.co/g3zFbkQ/Frame-1000000819-1.png"}
             alt="team logo"
             style={{ width: "100px" }}
           />

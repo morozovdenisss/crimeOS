@@ -33,10 +33,10 @@ const AuthNav = () => {
                 localStorage.setItem("role", result.app_metadata.role);
                 const roleString = String(role);
                 if (roleString === "advocate") {
-                  window.location.href = `${window.location.origin}/advocate`;
+                  window.location.href = `${window.location.origin}/free`;
                 }
                 if (roleString === "a2j") {
-                  window.location.href = `${window.location.origin}/a2j`;
+                  window.location.href = `${window.location.origin}/admin`;
                 }
               });
             });

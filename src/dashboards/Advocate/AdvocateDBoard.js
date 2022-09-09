@@ -41,7 +41,7 @@ const AdvocateDBoard = () => {
       <Grid.Column width={4} style={{ backgroundColor: "rgb(250, 251, 252)" }}>
         <Menu fluid vertical tabular color="blue">
           <div className="center item">
-            <h3>Advocate</h3>
+            <h3>Free User</h3>
             {userEmail}
           </div>
           <Menu.Item
@@ -49,14 +49,14 @@ const AdvocateDBoard = () => {
             active={activeItem === "overview"}
             onClick={handleItemClick}
           >
-            Overview <Icon name="clone" />
+            Missing & Wanted <Icon name="clone" />
           </Menu.Item>
           <Menu.Item
             name="new"
             active={activeItem === "new"}
             onClick={handleItemClick}
           >
-            New Submissions <Icon name="plus" />
+            Report Incident <Icon name="plus" />
           </Menu.Item>
         </Menu>
       </Grid.Column>
